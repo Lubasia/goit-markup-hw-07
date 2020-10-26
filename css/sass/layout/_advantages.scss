@@ -1,0 +1,62 @@
+.advantages {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  ::before {
+    display: inline-block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  &-list {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  &-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  &-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-& {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: $main-font;
+    color: $main-font-color;
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+  }
+  .text-& {
+    color: $secondary-font-color;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+  }
+}
+
+.antena::before {
+  background-image: url(../images/svg/antenna.svg);
+}
+.clock::before {
+  background-image: url(../images/svg/clock.svg);
+}
+.diagram::before {
+  background-image: url(../images/svg/diagram.svg);
+}
+.astronaut::before {
+  background-image: url(../images/svg/astronaut.svg);
+}

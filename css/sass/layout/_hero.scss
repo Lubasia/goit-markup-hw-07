@@ -1,0 +1,41 @@
+.hero {
+  color: $font-on-dakr-theme;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/svg/img.jpg);
+}
+.hero-container {
+  text-align: center;
+  width: 696px;
+  height: 600px;
+}
+.main-title {
+  text-transform: uppercase;
+  font-family: $main-font;
+  padding-bottom: 30px;
+  padding-top: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+
+  letter-spacing: 0.06em;
+}
+
+.link-button {
+  color: $font-on-dakr-theme;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: $link-color;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
