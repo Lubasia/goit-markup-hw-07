@@ -1,15 +1,15 @@
 .footer {
   background-color: $title-dark-theme-color;
+  &-container {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+  }
 }
 
-.footer-container {
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: baseline;
-}
 .logo-footer {
   margin-bottom: 20px;
 }
@@ -43,33 +43,27 @@
 }
 .enjoy {
   margin-left: 70px;
+  &-link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  &-text {
+    font-family: $main-font;
+    color: $font-on-dakr-theme;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  &-social {
+    margin-top: 20px;
+  }
 }
-.enjoy-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.social-link {
-  width: 44px;
-  height: 44px;
-  margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
+
 .enjoy-list:not(:last-child) {
   margin-right: 10px;
 }
 .dark-link {
   fill: $font-on-dakr-theme;
-}
-.enjoy-social {
-  margin-top: 20px;
-}
-.enjoy-text {
-  font-family: $main-font;
-  color: $font-on-dakr-theme;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }

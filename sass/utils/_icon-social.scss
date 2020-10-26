@@ -1,6 +1,5 @@
 .social-team {
-  display: flex;
-  justify-content: center;
+  @extend %flex-just-centre;
   align-items: center;
   width: 44px;
   height: 44px;
@@ -16,6 +15,13 @@
 .social-list:not(:last-child) {
   margin-right: 10px;
 }
+.social-link {
+  width: 44px;
+  height: 44px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
 
 .icon-cocial {
   height: 20px;
@@ -28,7 +34,6 @@
   fill: $font-on-dakr-theme;
 }
 .team-social-link {
-  display: flex;
-  justify-content: center;
+  @extend %flex-just-centre;
   padding-bottom: 30px;
 }
